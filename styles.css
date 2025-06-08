@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 03;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f0eaea;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.main-navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.main-navigation ul li {
+    position: relative;
+}
+
+.main-navigation ul li a {
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.main-navigation ul li ul.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-navigation ul li:hover ul.dropdown {
+    display: block;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: none;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #555;
+    color: #fff;
+}
+
+.user-links a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.breadcrumbs {
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+}
+.breadcrumbs a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 25%;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.product-list {
+    width: 75%;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-nav, .newsletter-signup, .social-media, .payment-methods {
+    margin-bottom: 20px;
+}
+
+.footer-nav a, .social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.newsletter-signup form {
+    display: flex;
+}
+.newsletter-signup input {
+    padding: 5px;
+    border: none;
+    margin-right: 10px;
+}
+
+.newsletter-signup button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #555;
+    color: #fff;
+}
+
